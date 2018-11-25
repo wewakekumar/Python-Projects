@@ -38,7 +38,6 @@ while True:
         x=random.randint(p,q)
         l=[]
         r=0
-        print("\n \n \n")
         while True:
             y=int(input("PLEASE ENTER THE NUMBER"))
             l.append(y)
@@ -75,4 +74,4 @@ while True:
         if(i==4):
             p=100-r
         print("You have scored {} points".format(p))
-
+        break

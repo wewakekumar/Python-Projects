@@ -41,10 +41,26 @@ while True:
         while True:
             y=int(input("PLEASE ENTER THE NUMBER"))
             l.append(y)
-            if y>100 or y<1:
+            if i==1:
+                if y>100 or y<1:
                 print("Out of bound")
                 r=r+1
                 continue;
+            if i==2:
+                if y > 1000 or y < 1:
+                    print("Out of bound")
+                    r = r + 1
+                    continue;
+            if i==3:
+                if y > 1000 or y < -100:
+                    print("Out of bound")
+                    r = r + 1
+                    continue;
+            if i==4:
+                if y > 1000 or y < -1000:
+                    print("Out of bound")
+                    r = r + 1
+                    continue;
             if (x-y)==0:
                     print("CONGRATS")
                     break;
